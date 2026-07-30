@@ -1,8 +1,26 @@
 aid: mate-security
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mate-security.png
 name: Mate Security
-description: 'Mate Security is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Mate Security operates an AI-powered Security Operations Center (SOC)
+  platform built on a "Security Context Graph." It learns an organization''s unique
+  security environment, tools, and procedures within 24 hours of integration, then
+  runs a continuous detection and response (CD/CR) framework: AI agents automatically
+  investigate, triage, and respond to alerts using organizational context, generate
+  new detections from closed investigations, and support human-in-the-loop threat
+  hunting across disparate security tools and data sources. Mate Security is backed
+  by Insight Partners. No public API, SDK, or developer documentation is published
+  at this time; this profile captures the company''s identity and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/mate-security/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cybersecurity
+- Security
+- Security Operations
+- SOC
+- Artificial Intelligence
+- Threat Detection
+- Incident Response
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://mate.security/
+- type: Blog
+  url: https://mate.security/blog
+- type: PrivacyPolicy
+  url: https://mate.security/privacy-policy
+- type: TrustCenter
+  url: https://trust.mate.security/
+- type: Security
+  url: https://mate.security/report-a-bug
+- type: VulnerabilityDisclosure
+  url: security/mate-security-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/mate-security-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
