@@ -1,0 +1,13 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+url: https://trust.mate.security/
+title: matesecurity.io Trust Center
+certifications: []
+notes: Trust Center is live at trust.mate.security; specific certifications are rendered
+  dynamically and were not verifiable from the static page. No published certification
+  names confirmed at capture time.
+evidence:
+- source: https://trust.mate.security/
+  keywords:
+  - trust center
